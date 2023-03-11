@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+
+.header{
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo{
+    color: #39B24A;
+}
+
+.y{
+    color: white;
+}
+
+.titulo-2{
+    color: #FC200C;
+}
+
+/*NAVEGACION*/
+
+.navegacion{
+    color: white;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+     
+}
+
+/*SECTION*/
+
+.centro{
+    display: flex;
+    justify-content: center;      
+    margin-top: 55px;
+    
+}
+
+.fondo{
+    background-image: url(../images/delivery.jpg);
+    background-repeat: no-repeat;
+    width: 590px;
+    height: 350px;
+    padding: 10px 30px;
+}
+
+.pizzas{
+    color: red;
+    font-size: 24px;
+}
+
+.comprando{
+    color: white;
+    font-size: 24px;
+}
+
+
+.fondo-2{
+    width: 520px;
+    height: 350px;
+    padding: 20px 40px;    
+    border: solid 1px orange;
+}
+
+.titulo-3{
+    text-align: center;
+    margin-bottom: 45px;
+    color: red;
+    font-size: 24px;
+}
+
+.titulo-4{
+    margin-bottom: 15px;
+}
+
+.lista-imagen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-top: 55px;
+    
+}
+
+.lista-bottom{
+    color: white;
+    list-style: none;
+    line-height: 1.9;
+}
